@@ -1,0 +1,44 @@
+.BG{
+    background-image: url("/public/old-city-architecture-ancient-wall-historic-876774-wallhere.com.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-y;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+.HotelDetails{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    backdrop-filter: blur(10px);;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-y;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    width: 100%;
+    color:antiquewhite;
+    row-gap: 3rem;
+}
+.ImageHotel{
+    background-image: url("/GP_HorusEye/public/architecture-ancient-pillar-hieroglyphics-Egypt-historic-1925921-wallhere.com.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-y;
+    background-color: antiquewhite;
+    width: 60vw;
+    height: 40vh;
+    border-radius: 10px;
+    margin-top: 2rem;
+    
+}
+.Btnss{
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between
+  
+  }

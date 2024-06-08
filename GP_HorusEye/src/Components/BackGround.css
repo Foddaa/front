@@ -1,0 +1,137 @@
+@media screen and (max-width:340px){
+
+.Welcome_img_1{
+    margin-top: 1vh;
+}
+
+}
+.bg-img-1{
+    background-image: url('/public/architecture-ancient-pillar-hieroglyphics-Egypt-historic-1925921-wallhere.com.jpg');
+    
+
+}
+.bg-img-2{
+    background-image: url('/public/old-city-architecture-ancient-wall-historic-876774-wallhere.com.jpg');
+
+}
+.bg-img-3{
+    background-image: url('/public/Trey-Ratcliff-photography-Egypt-Cairo-sphynx-Ancient-Egypt-2150703-wallhere.com.jpg');
+
+}
+
+
+
+.IMAGE{
+    height: 80vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+
+/*/////////////////////////////////////*/
+
+.CONtanier{
+    column-gap: 4.2rem;
+}
+.COL{
+    box-sizing: border-box;
+  width: fit-content;
+  height: fit-content;
+  background: rgba(217, 217, 217, 0.58);
+  border: 1px solid rgb(9, 9, 9);
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(6px);
+  border-radius: 17px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  user-select: none;
+  font-weight: bolder;
+  color: black;
+  margin-bottom: 7rem;
+  padding: 1rem;
+}
+.COL:hover{
+    transform: scale(1.1);
+    background: rgba(217, 217, 217, 0.58);
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.52);
+}
+
+.COL h5{
+    text-align: center;
+    color: blueviolet;
+}
+/*/////////////////////////////////////////*/
+.Welcome_img_1 {
+    color: rgb(255, 255, 225,1);
+    text-align: center;
+    backdrop-filter: brightness(100%);
+    font-size: 500%;
+    backdrop-filter: blur(30px);
+    border: 8px rgb(0, 0, 0) solid;
+    text-shadow: rgb(0, 0, 0) 5px 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 17vh;
+}
+/*/////////////////////////////////////////*/
+.WEL{
+   display: flex;
+   justify-content: center;
+   padding-left: 5rem;
+   padding-right: 5rem;
+   padding-top: 3rem;
+   background-color: antiquewhite;
+   margin: 10rem auto;
+   width: 80%;
+   border-radius: 40px ;
+   box-shadow: 20px 20px black;
+  
+}
+
+.P1{
+    width: 50%;
+    float: left;
+    padding-bottom: 3rem;
+    
+}
+.WEL h1{
+    display: grid;
+    padding: 3rem;
+    align-content: center;
+}
+
+.WEL1{
+    display: flex;
+    justify-content: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 3rem;
+    background-color: antiquewhite;
+    margin: 10rem auto;
+    width: 80%;
+    border-radius: 40px ;
+    box-shadow: -20px 20px black;
+   
+ }
+
+ 
+ .WEL1 h1{
+    display: grid;
+    padding: 3rem;
+    align-content: center;
+}
+/*////////////////////////////*/
+.Footer{
+    background-color: rgba(65, 64, 64, 0.781);
+    height: 200px;
+}

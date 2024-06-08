@@ -1,0 +1,112 @@
+body{
+    padding-top: 5rem;
+    
+}
+@media screen and (max-width:644px){
+    body{
+        padding-top: 10rem;
+        
+    }
+}
+@media screen and (max-width:352px){
+    body{
+        padding-top: 15rem;
+        
+    }
+}
+
+
+.LoginBackGround{
+   
+    background-image: url('/public/old-city-architecture-ancient-wall-historic-876774-wallhere.com.jpg');
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height:100%;
+    background-size: cover;
+    background-position: center ;
+    background-attachment: fixed;
+    
+    
+}
+.Wrapper{
+    width: 420px;
+    border:2px black solid;
+    border-radius: 10px;
+    padding: 30px 40px;
+    background: transparent;
+    backdrop-filter: blur(30px);
+    margin-top: 10px;
+    
+
+    
+}
+
+
+.Wrapper .InputBox{
+    position: relative;
+    height: 50px;
+    margin: 30px;
+}
+
+.InputBox input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(243, 243, 243);
+    border-radius: 40px;
+    font-size: 16px;
+    color: white;
+    padding: 20px 45px 20px 20px;
+}
+.InputBox input::placeholder{
+    color: rgb(255, 255, 255);
+}
+.InputBox .icon{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+}
+.Wrapper .LOG{
+    width: 100%;
+    height:45px;
+    border:none;
+    outline:none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px ;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+.LOG:hover{
+    background: rgb(52, 197, 23);
+    color: white;
+    cursor: pointer;
+}
+.Wrapper .RegLink{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+
+}
+.RegLink p a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+.RegLink p a:hover{
+    text-decoration: underline;
+}
+
+
+.h{
+    font-size: 40px;
+    text-align: center;
+    color: aliceblue;
+    
+}

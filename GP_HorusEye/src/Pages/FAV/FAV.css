@@ -1,0 +1,70 @@
+
+.Back{
+    display: grid;
+    place-items: center;
+    row-gap: 2rem;
+    margin-top: 1rem;
+
+
+}
+
+
+.HEADER{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: inset 0 3em 3em rgba(255, 255, 255, 0.1),
+                0.3em 0.3em 1em rgba(0,0,0,0.5);
+    height: 10vh;
+   max-width: fit-content; 
+   padding-left: 3rem;
+   padding-right: 3rem;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+}
+.HEADER h1{
+    font-size: 3.2rem;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.Back{ 
+    font-size: 3.2rem;
+    font-weight: 600;
+    text-align: center;
+
+
+
+}
+.cardd{
+     width: 7rem; 
+    height: 20rem;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    border:2px solid rgb(0, 0, 0);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+.cardd h6{
+    padding-left: 0.5rem;
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+
+.shadow {
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+                0 0  0 2px rgb(83, 82, 82),
+                0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+
+    

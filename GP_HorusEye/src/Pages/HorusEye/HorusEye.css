@@ -1,0 +1,182 @@
+@keyframes rotate {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+body{
+    padding-top: 16rem;
+    
+}
+@media screen and (max-width:644px){
+    body{
+        padding-top: 10rem;
+        
+    }
+}
+@media screen and (max-width:352px){
+    body{
+        padding-top: 10rem;
+        
+    }
+}
+
+.BackGround{
+    background-image: url('/public/old-city-architecture-ancient-wall-historic-876774-wallhere.com.jpg');
+    height: 190vh;
+    width: 100vw;
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    background-position: center ;
+    background-attachment: fixed;
+    
+    
+}
+
+.Header{
+    background-color: rgb(235, 228, 228);
+    border-radius: 10px; 
+    width: fit-content;
+    height: fit-content;
+    margin-top: 1.28rem;
+    padding: 1rem;
+    font-size: 4rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    grid-column: 2/span 1;
+    grid-row: 1;
+    
+    
+}
+
+.H{
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0.1rem;
+    transition: 0.3s;
+    text-decoration: none;
+    align-items: center;
+}
+
+.HE{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+
+.img{
+    height: 4.3rem;
+    margin: 0.3rem;
+    transform: rotateY(360deg);
+    animation: rotate 3s infinite linear;
+    transition: 0.3s;
+}
+
+
+
+
+.HorusEye{
+    border-radius: 10px;
+    width: 100%;
+    height: fit-content;
+    margin-top: 1.28rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+    flex-direction: row;
+    /* margin-bottom: 10rem; */
+    align-items: center;
+    
+}
+
+
+.HorusEye button{
+    background-color: rgb(235, 228, 228);
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    align-self: center;
+    margin-top: 1rem;
+}
+.HorusEye button:hover{
+background-color: rgb(52, 197, 23);
+color: rgb(235, 228, 228);
+transition: 0.3s;
+}
+
+.HorusEye button:active{
+    background-color: rgb(0, 0, 0);
+    color: rgb(235, 228, 228);
+    transition: 0.3s;
+}
+
+
+.HorusEye img{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    margin-top: 1.28rem;
+    padding: 1rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    align-self: start;
+}
+
+
+.video{
+    border: 5px solid black;
+    border-radius: 10px;
+    align-items: center;
+    width: 100%;
+}
+
+.LabelFile{
+    background-color: rgb(235, 228, 228);
+    border-radius: 10px;
+    height: 437px;
+    width: 100%;
+    padding: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    align-items: center;
+
+}
+
+
+.LabelFile:hover{
+    background-color: rgb(52, 197, 23);
+    color: rgb(235, 228, 228);
+    transition: 0.3s;
+}
+
+.buttom{
+    color: aliceblue;
+    align-items: center;
+}
+
+
